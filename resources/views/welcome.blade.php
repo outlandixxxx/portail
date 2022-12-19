@@ -4,6 +4,21 @@
 
 
 
+        <title>How To Use Font Awesome In Laravel? - codesolutionstuff.com</title>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <link type="text/css" rel="stylesheet" href="{{ mix('assets/css/theme.css') }}">
+    <style type="text/css">
+        i{
+            font-size: 50px !important;
+            padding: 10px;
+        }
+    </style>
+
+
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,12 +26,12 @@
         <title>Gestion Des Dossiers</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css"> 
 
         <!-- Styles -->
        
         
-        <link href="{{asset('assets/css/theme.css')}}"rel="stylesheet" type="text/css">
+        <link href="{{asset('assets/css/theme.css')}}"rel="stylesheet" type="text/css"> 
         
 
         
@@ -69,6 +84,14 @@
             </div>
        
      </div>   
+
+
+
+     <h1>How To Use Font Awesome In Laravel 9? - codesolutionstuff.com</h1>
+   <i class="text-green-500 fa fa-copy"></i>
+   <i class="fa fa-save"></i>
+   <i class="fa fa-trash"></i>
+   <i class="fa fa-home"></i>
  
     </body>
 </html>

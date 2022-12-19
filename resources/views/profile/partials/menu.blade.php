@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand navbar-light  py-4 py-lg-0 shadow">
-    <div class="container ">
-      <a class="navbar-brand ms-auto " href="#">lOGO</a>
+    <div class="container-fluid ">
+      
+      <a class="navbar-brand ms-auto logo " href="#"><img src="images/logo.png " alt="" height="100"></a> 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -18,31 +19,31 @@
         <ul class="navbar-nav ">
         
               <li class="{{ 'home' == request()->path() ? 'a' : ''}} ">
-                <a class="nav-link " aria-current="page" href=" {{ url('/home') }}">Accuiel</a>
+                <a class="nav-link " aria-current="page" href=" {{ url('/home') }}">ACCEUIL</a>
               </li>
               <li class="nav-item {{ (request()->path() == 'a') ? 'active' : '' }}">
-                <a class="nav-link " aria-current="page" href=" {{ url('/home') }}">test</a>
+                <a class="nav-link " aria-current="page" href=" {{ url('/home') }}">TEST</a>
                 </li>
               <li class="{{ 'dossier' == request()->path() ? 'a' : ''}} ">
-                <a class="nav-link " aria-current="page" href="{{ url('dossier')}}">Mutuelle</a>
+                <a class="nav-link " aria-current="page" href="{{ url('dossier')}}">MUTUELLE</a>
               </li>
               <li class="nav-item dropdown" data-bs-toggle="dropdown">
                 <a class="nav-link dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                  Services
+                  SERVICES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown"  data-bs-toggle="dropdown" >
-                  <li class="{{ 'situation' == request()->path() ? 'a' : ''}} " ><a class="dropdown-item"  href="#">Situation Administrative</a></li>
-                  <li class="{{ 'remboursement' == request()->path() ? 'a' : ''}} " ><a class="dropdown-item" href="{{ url('dossier')}}">Rembouresement</a></li>
+                  <li class="{{ 'situation' == request()->path() ? 'a' : ''}} " ><a class="dropdown-item"  href="#">SITUATION ADMINISTRATIVE</a></li>
+                  <li class="{{ 'remboursement' == request()->path() ? 'a' : ''}} " ><a class="dropdown-item" href="{{ url('dossier')}}">REMBOURESEMEMNT</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li class="{{ 'pec' == request()->path() ? 'a' : ''}} "><a class="dropdown-item" href="#">Prise En Charge</a></li>
+                  <li class="{{ 'pec' == request()->path() ? 'a' : ''}} "><a class="dropdown-item" href="#">PRISE EN CHARGE</a></li>
                 </ul>
     
                 <li class="{{ 'partenaire' == request()->path() ? 'a' : ''}} ">
-                  <a class="nav-link " aria-current="page" href="#">Partenaire</a>
+                  <a class="nav-link " aria-current="page" href="#">PARTENAIRE</a>
                 </li>
     
                 <li class="{{ 'reclamation' == request()->path() ? 'a' : ''}} ">
-                  <a class="nav-link " aria-current="page" href="{{ url('reclamation')}}">Reclamation</a>
+                  <a class="nav-link " aria-current="page" href="{{ url('reclamation')}}">RECLAMATION</a>
                 </li>
 
         </ul>

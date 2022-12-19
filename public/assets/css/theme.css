@@ -685,7 +685,7 @@ progress {
 .container-sm,
 .container-xl,
 .container-xxl {
-    --bs-gutter-x: 1.5rem;
+    --bs-gutter-x: 5rem;
     --bs-gutter-y: 0;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x) * .5);
@@ -4318,7 +4318,10 @@ fieldset:disabled .btn {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    height: 100;
+    font-family: sans-serif;
+    font-weight: inherit;
 }
 
 .navbar>.container,
